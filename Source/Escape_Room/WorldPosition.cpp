@@ -10,7 +10,6 @@ UWorldPosition::UWorldPosition()
 	// off to improve performance if you don't need them.
 	PrimaryComponentTick.bCanEverTick = true;
 
-	// ...
 }
 
 
@@ -20,10 +19,7 @@ void UWorldPosition::BeginPlay()
 	Super::BeginPlay();
 
 	UE_LOG(LogTemp, Warning, TEXT("The game has started"));
-	UE_LOG(LogTemp, Error, TEXT("The game has started"));
-	UE_LOG(LogTemp, Display, TEXT("The game has started"));
-	// ...
-	
+
 }
 
 
@@ -32,7 +28,5 @@ void UWorldPosition::TickComponent(float DeltaTime, ELevelTick TickType, FActorC
 {
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
 
-	// ...
-	
 }
 
