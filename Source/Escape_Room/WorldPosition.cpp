@@ -28,5 +28,6 @@ void UWorldPosition::TickComponent(float DeltaTime, ELevelTick TickType, FActorC
 {
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
 
+
 }
 
