@@ -2,6 +2,7 @@
 
 
 #include "WorldPosition.h"
+#include "Actor.h"
 
 // Sets default values for this component's properties
 UWorldPosition::UWorldPosition()
@@ -18,7 +19,12 @@ void UWorldPosition::BeginPlay()
 {
 	Super::BeginPlay();
 
-	UE_LOG(LogTemp, Warning, TEXT("The game has started"));
+	// FString word = TEXT("RandWord");
+	// FString* wordptr = &word;
+	// UE_LOG(LogTemp, Warning, TEXT("The game has started: %s"), **wordptr);
+
+	// FString wordptr = GetOwner()->GetName();
+	UE_LOG(LogTemp, Warning, TEXT("This component is attached to: %s"), *GetOwner()->GetName());
 
 }
 
