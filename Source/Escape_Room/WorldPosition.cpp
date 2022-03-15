@@ -24,7 +24,7 @@ void UWorldPosition::BeginPlay()
 	// UE_LOG(LogTemp, Warning, TEXT("The game has started: %s"), **wordptr);
 
 	// FString wordptr = GetOwner()->GetName();
-	UE_LOG(LogTemp, Warning, TEXT("This component is attached to: %s"), *GetOwner()->GetName());
+	// UE_LOG(LogTemp, Warning, TEXT("This component is attached to: %s"), *GetOwner()->GetName());
 
 }
 
