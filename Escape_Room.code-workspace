@@ -15,7 +15,10 @@
 			"${default}",
 			"D:\\Projects\\UE4-Release\\Escape_Room\\Intermediate\\Build\\Win64\\UE4Editor\\Development\\Escape_Room\\Definitions.Escape_Room.h",
 			"D:\\Projects\\UE4-Release\\Escape_Room\\Intermediate\\Build\\Win64\\Escape_RoomEditor\\Development\\Engine\\SharedPCH.Engine.ShadowErrors.h"
-		]
+		],
+		"files.associations": {
+			"*.rh": "cpp"
+		}
 	},
 	"extensions": {
 		"recommendations": [
